@@ -1,0 +1,90 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "ecotrain",
+  "title": "EcoTrain Training Dataset",
+  "description": "EcoTrain is a geospatial training dataset of Ecosystem Functional Groups (EFGs) as defined in the IUCN Global Ecosystem Typology (GET). Each feature represents a single labeled training sample with associated spatial, temporal, methodological, and interpretative metadata. The dataset is provided as GeoJSON vector assets with multiple spatial supports (point, 10m, and 100m polygons) and is designed for Earth observation analysis, spatial modelling, and machine learning workflows.",
+
+  "keywords": [
+    "ecosystem",
+    "Ecosystem Functional Group",
+    "EFG",
+    "Global Ecosystem Typology",
+    "GET",
+    "International Union for Conservation of Nature",
+    "IUCN",
+    "Global Ecosystems Atlas",
+    "training data",
+    "training dataset",
+    "machine learning",
+    "earth observation",
+    "GeoJSON"
+  ],
+
+  "license": "CC-BY-4.0",
+
+  "providers": [
+    {
+      "name": "JCU Global Ecology Lab",
+      "roles": ["producer"],
+      "url": "https://www.globalecologylab.org/"
+    },
+    {
+      "name": "Global Ecosystem Atlas",
+      "roles": ["host", "licensor"],
+      "url": "https://globalecosystemsatlas.org/"
+    }
+  ],
+
+  "extent": {
+    "spatial": {
+      "bbox": [[-180.0, -90.0, 180.0, 90.0]]
+    },
+    "temporal": {
+      "interval": [["2025-01-01T00:00:00Z", "2025-12-31T23:59:59Z"]]
+    }
+  },
+
+  "links": [
+    {
+      "rel": "root",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://github.com/Global-Ecosystems-Atlas/ecotrain/wiki",
+      "type": "text/html",
+      "title": "EcoTrain Wiki"
+    }
+  ],
+
+  "assets": {
+    "points": {
+      "href": ".../v0.1.0/ecotrain_pts.geojson",
+      "type": "application/geo+json",
+      "title": "EcoTrain point-based training samples",
+      "description": "Point geometries representing the reference GPS location of each EcoTrain training sample.",
+      "roles": ["training-data", "vector", "points"]
+    },
+    "polygons-10m": {
+      "href": ".../v0.1.0/ecotrain_10m.geojson",
+      "type": "application/geo+json",
+      "title": "EcoTrain 10 m polygon training samples",
+      "description": "Square polygon geometries (10m x 10m) centred on the reference GPS location of each EcoTrain training sample.",
+      "roles": ["training-data", "vector", "polygons"]
+    },
+    "polygons-100m": {
+      "href": ".../v0.1.0/ecotrain_100m.geojson",
+      "type": "application/geo+json",
+      "title": "EcoTrain 100 m polygon training samples",
+      "description": "Square polygon geometries (100m x 100m) centred on the reference GPS location of each EcoTrain training sample.",
+      "roles": ["training-data", "vector", "polygons"]
+    }
+  }
+}
