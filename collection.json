@@ -66,21 +66,21 @@
 
   "assets": {
     "points": {
-      "href": ".../v0.1.0/ecotrain_pts.geojson",
+      "href": ".../latest/ecotrain_pts.geojson",
       "type": "application/geo+json",
       "title": "EcoTrain point-based training samples",
       "description": "Point geometries representing the reference GPS location of each EcoTrain training sample.",
       "roles": ["training-data", "vector", "points"]
     },
     "polygons-10m": {
-      "href": ".../v0.1.0/ecotrain_10m.geojson",
+      "href": ".../latest/ecotrain_10m.geojson",
       "type": "application/geo+json",
       "title": "EcoTrain 10 m polygon training samples",
       "description": "Square polygon geometries (10m x 10m) centred on the reference GPS location of each EcoTrain training sample.",
       "roles": ["training-data", "vector", "polygons"]
     },
     "polygons-100m": {
-      "href": ".../v0.1.0/ecotrain_100m.geojson",
+      "href": ".../latest/ecotrain_100m.geojson",
       "type": "application/geo+json",
       "title": "EcoTrain 100 m polygon training samples",
       "description": "Square polygon geometries (100m x 100m) centred on the reference GPS location of each EcoTrain training sample.",
