@@ -21,7 +21,7 @@
     "GeoJSON"
   ],
 
-  "license": "CC-BY-4.0",
+  "license": "NDA - not publicly available",
 
   "providers": [
     {
@@ -41,19 +41,19 @@
       "bbox": [[-180.0, -90.0, 180.0, 90.0]]
     },
     "temporal": {
-      "interval": [["2025-01-01T00:00:00Z", "2025-12-31T23:59:59Z"]]
+      "interval": [["2025-01-01T00:00:00Z", null]]
     }
   },
 
   "links": [
     {
       "rel": "root",
-      "href": "./collection.json",
+      "href": "collection.json",
       "type": "application/json"
     },
     {
       "rel": "self",
-      "href": "./collection.json",
+      "href": "collection.json",
       "type": "application/json"
     },
     {
@@ -62,29 +62,5 @@
       "type": "text/html",
       "title": "EcoTrain Wiki"
     }
-  ],
-
-  "assets": {
-    "points": {
-      "href": ".../latest/ecotrain_pts.geojson",
-      "type": "application/geo+json",
-      "title": "EcoTrain point-based training samples",
-      "description": "Point geometries representing the reference GPS location of each EcoTrain training sample.",
-      "roles": ["training-data", "vector", "points"]
-    },
-    "polygons-10m": {
-      "href": ".../latest/ecotrain_10m.geojson",
-      "type": "application/geo+json",
-      "title": "EcoTrain 10 m polygon training samples",
-      "description": "Square polygon geometries (10m x 10m) centred on the reference GPS location of each EcoTrain training sample.",
-      "roles": ["training-data", "vector", "polygons"]
-    },
-    "polygons-100m": {
-      "href": ".../latest/ecotrain_100m.geojson",
-      "type": "application/geo+json",
-      "title": "EcoTrain 100 m polygon training samples",
-      "description": "Square polygon geometries (100m x 100m) centred on the reference GPS location of each EcoTrain training sample.",
-      "roles": ["training-data", "vector", "polygons"]
-    }
-  }
+  ]
 }

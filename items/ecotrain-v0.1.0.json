@@ -1,0 +1,47 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "ecotrain_v0_1_0",
+  "title": "EcoTrain Training Dataset v0.1.0",
+  "collection": "ecotrain",
+  "deprecated": true,
+
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[-180, -90], [180, -90], [180, 90], [-180, 90], [-180, -90]]]
+  },
+  "bbox": [-180, -90, 180, 90],
+
+  "properties": {
+    "datetime": "2025-01-01T00:00:00Z",
+    "version": "0.1.0",
+    "gea:num_samples": 19118
+  },
+
+  "links": [
+    { "rel": "collection", "href": "../collection.json" },
+    { "rel": "successor", "href": "ecotrain_v0_1_1.json" },
+    { "rel": "root", "href": "../collection.json" }
+  ],
+
+  "assets": {
+    "points": {
+      "href": ".../v0_1_0/ecotrain_pts.geojson",
+      "type": "application/geo+json",
+      "roles": ["training-data", "vector", "points"],
+      "description": "Point geometries representing the reference GPS location of each EcoTrain training sample."
+    },
+    "polygons_10m": {
+      "href": ".../v0_1_0/ecotrain_10m.geojson",
+      "type": "application/geo+json",
+      "roles": ["training-data", "vector", "polygons"],
+      "description": "Square polygon geometries (10m x 10m) centred on the reference GPS location of each EcoTrain training sample."
+    },
+    "polygons_100m": {
+      "href": ".../v0_1_0/ecotrain_100m.geojson",
+      "type": "application/geo+json",
+      "roles": ["training-data", "vector", "polygons"],
+      "description": "Square polygon geometries (100m x 100m) centred on the reference GPS location of each EcoTrain training sample."
+    }
+  }
+}
