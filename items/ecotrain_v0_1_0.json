@@ -16,7 +16,7 @@
     "datetime": "2025-01-01T00:00:00Z",
     "version": "0.1.0",
     "deprecated": true,
-    "gea:num_samples": 19118
+    "gea:num_training_samples": 19118
   },
 
   "links": [
