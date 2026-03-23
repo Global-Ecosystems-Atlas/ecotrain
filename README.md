@@ -1,6 +1,8 @@
 # EcoTrain: Training and Validation Dataset
 
-[![Training Data Viewer](https://github.com/Global-Ecosystems-Atlas/.github/blob/main/screenshots/training_data_viewer.png)](https://geo-global-ecosystems-atlas.projects.earthengine.app/view/trainingdataviewer)
+<p align="center">
+  <img width="2560" height="1299" src="https://github.com/Global-Ecosystems-Atlas/.github/blob/main/screenshots/ecotrain_evolution.gif">
+</p>
 
 ## Overview
 
