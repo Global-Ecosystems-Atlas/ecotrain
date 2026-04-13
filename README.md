@@ -1,7 +1,7 @@
 # EcoTrain: Training and Validation Dataset
 
 <p align="center">
-  <img width="2560" height="1299" src="https://github.com/Global-Ecosystems-Atlas/.github/blob/main/screenshots/ecotrain_evolution.gif">
+  <img width="2560" height="1299" src="images/ecotrain_map.gif">
 </p>
 
 ## Overview
