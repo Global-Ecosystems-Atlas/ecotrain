@@ -1,4 +1,4 @@
-# EcoTrain: Training and Validation Dataset
+# EcoTrain Training and Validation Dataset
 
 <p align="center">
   <img width="2560" height="1299" src="images/ecotrain_map.gif">
@@ -7,7 +7,7 @@
 
 ## Overview
 
-The **EcoTrain Training and Validation Dataset** provides reference data for the study, modelling, and mapping of **Ecosystem Functional Groups**, based on the **[IUCN Global Ecosystem Typology (GET)](https://global-ecosystems.org)**. It is designed to support a wide range of applications in ecosystem analysis, research, and environmental decision-making. The dataset is structured for interoperability, allowing integration with common geospatial and analytical tools. By providing standardised, high-quality data on Ecosystem Functional Groups, EcoTrain enables consistent and reliable analyses across the world, supporting both scientific research and practical environmental management.
+The **EcoTrain Training and Validation Dataset** provides reference data for the study, modelling, and mapping of **Ecosystem Functional Groups (EFGs)**, based on the [IUCN Global Ecosystem Typology (GET)](https://global-ecosystems.org). It is designed to support a wide range of applications in ecosystem analysis, research, and environmental decision-making. The dataset is structured for interoperability, allowing integration with common geospatial and analytical tools. By providing standardised, high-quality data on Ecosystem Functional Groups, EcoTrain enables consistent and reliable analyses across the world, supporting both scientific research and practical environmental management.
 
 
 ## Download the dataset
