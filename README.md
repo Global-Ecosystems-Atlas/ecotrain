@@ -12,7 +12,7 @@ The **EcoTrain Training and Validation Dataset** provides reference data for the
 <br>
 <p align="center">
   <a href="https://github.com/Global-Ecosystems-Atlas/ecotrain/wiki/ecotrain-downloads">
-    <img src="https://img.shields.io/badge/Download_EcoTrain-446077?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSA5aC00VjNIOVY5SDVMMTIgMTZsNy03ek01IDE4djJoMTR2LTJINXoiLz48L3N2Zz4=" alt="EcoTrain downloads" height="40">
+    <img src="https://img.shields.io/badge/Download_EcoTrain-446077?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSA5aC00VjNIOVY5SDVMMTIgMTZsNy03ek01IDE4djJoMTR2LTJINXoiLz48L3N2Zz4=" alt="EcoTrain downloads" width="300">
   </a>
 </p>
 <br>
