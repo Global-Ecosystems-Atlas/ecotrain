@@ -9,13 +9,10 @@
 
 The **EcoTrain Training and Validation Dataset** provides reference data for the study, modelling, and mapping of **Ecosystem Functional Groups (EFGs)**, based on the [IUCN Global Ecosystem Typology (GET)](https://global-ecosystems.org). It is designed to support a wide range of applications in ecosystem analysis, research, and environmental decision-making. The dataset is structured for interoperability, allowing integration with common geospatial and analytical tools. By providing standardised, high-quality data on Ecosystem Functional Groups, EcoTrain enables consistent and reliable analyses across the world, supporting both scientific research and practical environmental management.
 
-
-## Download the dataset
-
 <br>
 <p align="center">
   <a href="https://github.com/Global-Ecosystems-Atlas/ecotrain/wiki/ecotrain-downloads">
-    <img src="https://img.shields.io/badge/EcoTrain-Downloads-2ea44f?style=for-the-badge" alt="EcoTrain downloads" height="40">
+    <img src="https://img.shields.io/badge/Download_EcoTrain-446077?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSA5aC00VjNIOVY5SDVMMTIgMTZsNy03ek01IDE4djJoMTR2LTJINXoiLz48L3N2Zz4=" alt="EcoTrain downloads" height="40">
   </a>
 </p>
 <br>
